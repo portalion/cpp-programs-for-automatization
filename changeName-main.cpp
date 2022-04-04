@@ -29,7 +29,7 @@ int main()
 		before = strs.str();
 		strs.str(std::string()); //Clear stringstream
 
-		strs << NAME << filename << all << END;
+		strs << NAME << newName << all << END;
 		after = strs.str();
 		strs.str(std::string()); //Clear stringstream
 
